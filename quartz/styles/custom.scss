@@ -1,3 +1,91 @@
-@use "./variables.scss" as *;
+/* Custom Hebrew RTL & Typography Styles for Rimon Archive */
+@import url('https://fonts.googleapis.com/css2?family=Assistant:wght@300;400;500;600;700;800&family=Rubik:wght@400;500;600;700&display=swap');
 
-// put your custom CSS here!
+:root {
+  --pageFont: 'Assistant', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif !important;
+  --headerFont: 'Rubik', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif !important;
+}
+
+/* Enforce RTL and Right Alignment Across All Containers */
+html, body, .page, article, section, nav, header, footer, aside, .explorer, .toc, .sidebar, p, li, h1, h2, h3, h4, h5, h6, table, th, td {
+  direction: rtl !important;
+  text-align: right !important;
+  font-family: var(--pageFont) !important;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: var(--headerFont) !important;
+}
+
+/* Adjust Bullet Lists for RTL Alignment */
+ul, ol {
+  padding-right: 1.5rem !important;
+  padding-left: 0 !important;
+}
+
+.explorer ul, .toc ul {
+  padding-right: 1rem !important;
+  padding-left: 0 !important;
+}
+
+/* Table Styling for Hebrew Data Indexes */
+table {
+  direction: rtl !important;
+  width: 100% !important;
+  border-collapse: collapse !important;
+  margin: 1.5rem 0 !important;
+}
+
+th, td {
+  text-align: right !important;
+  padding: 0.75rem 1rem !important;
+}
+
+/* Interactive Card Grid for Home Page Modules */
+.modules-grid {
+  display: grid !important;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)) !important;
+  gap: 1.25rem !important;
+  margin: 1.5rem 0 2.5rem 0 !important;
+  direction: rtl !important;
+}
+
+.module-card {
+  background-color: var(--lightgray, #f8f9fa) !important;
+  border: 1px solid var(--gray, #e9ecef) !important;
+  border-radius: 12px !important;
+  padding: 1.25rem 1.5rem !important;
+  text-align: right !important;
+  text-decoration: none !important;
+  color: var(--dark, #212529) !important;
+  display: flex !important;
+  flex-direction: column !important;
+  transition: all 0.2s ease-in-out !important;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.03) !important;
+}
+
+.module-card:hover {
+  transform: translateY(-4px) !important;
+  box-shadow: 0 8px 20px rgba(0,0,0,0.08) !important;
+  border-color: var(--secondary, #3b82f6) !important;
+  background-color: var(--highlight, #f0f7ff) !important;
+}
+
+.module-card .card-icon {
+  font-size: 2.2rem !important;
+  margin-bottom: 0.5rem !important;
+}
+
+.module-card .card-title {
+  font-size: 1.25rem !important;
+  font-weight: 700 !important;
+  color: var(--secondary, #2563eb) !important;
+  margin-bottom: 0.4rem !important;
+}
+
+.module-card .card-desc {
+  font-size: 0.92rem !important;
+  color: var(--darkgray, #6c757d) !important;
+  line-height: 1.4 !important;
+  margin: 0 !important;
+}
