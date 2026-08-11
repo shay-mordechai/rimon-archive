@@ -1,6 +1,7 @@
 ---
 type: 'letter'
 title: 'NEWS AND VIEWS'
+gregorian_year: '1909'
 ---
 
 # NEWS AND VIEWS

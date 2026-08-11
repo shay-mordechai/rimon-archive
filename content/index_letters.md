@@ -1,6 +1,8 @@
 ---
 tags: [dashboard_module, index]
 title: "מכתבים (קלסר ירוק)"
+hebrew_year: 'תרפ"ה'
+gregorian_year: '1925'
 ---
 # 📜 מכתבים (קלסר ירוק)
 
