@@ -2,6 +2,7 @@
 type: 'letter'
 title: 'NEWS AND VIEWS'
 gregorian_year: '1909'
+hebrew_year: 'תאריך לא ידוע'
 ---
 
 # NEWS AND VIEWS

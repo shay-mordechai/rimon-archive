@@ -20,6 +20,19 @@ title: "ארכיון י.צ. רימון - דף בית"
 
 ---
 
+## ⏳ ציר זמן היסטורי מלא (כלל הארכיון)
+תצוגה כרונולוגית רציפה של כל המסמכים בארכיון שזוהה להם תאריך.
+
+<div class="modules-grid" style="grid-template-columns: 1fr;">
+  <a href="./Index%20-%20%D7%A6%D7%99%D7%A8%20%D7%96%D7%9E%D7%9F%20%D7%9E%D7%A7%D7%99%D7%A3" class="module-card" style="border-color: #8b5cf6; background-color: #f5f3ff;">
+    <div class="card-icon">⏳</div>
+    <div class="card-title">ציר זמן כרונולוגי מקיף</div>
+    <div class="card-desc">צפייה משולבת בכל המכתבים, השירים והמאמרים, מסודרים מהישן ביותר ועד החדש ביותר.</div>
+  </a>
+</div>
+
+---
+
 ## 🗄️ כלל חומרי הגלם (הוקלדו ע"י שי)
 גישה מלאה לכלל החומרים בארכיון, מחולקים לפי סוגות:
 

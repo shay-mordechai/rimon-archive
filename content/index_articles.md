@@ -1,6 +1,8 @@
 ---
 tags: [dashboard_module, index]
 title: "מאמרים ורשימות"
+hebrew_year: 'תאריך לא ידוע'
+gregorian_year: 'תאריך לא ידוע'
 ---
 # 📰 מאמרים ורשימות
 
