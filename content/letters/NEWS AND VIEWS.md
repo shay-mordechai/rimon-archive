@@ -1,8 +1,8 @@
 ---
-type: 'letter'
 title: 'NEWS AND VIEWS'
-gregorian_year: '1909'
+type: 'letter'
 hebrew_year: 'תאריך לא ידוע'
+gregorian_year: '1909'
 ---
 
 # NEWS AND VIEWS
