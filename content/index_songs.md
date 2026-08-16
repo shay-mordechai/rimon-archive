@@ -1,8 +1,8 @@
 ---
 tags: [dashboard_module, index]
 title: "שירים ויצירות"
-hebrew_year: 'תרו"ן'
-gregorian_year: '1846'
+hebrew_year: 'תאריך לא ידוע'
+gregorian_year: 'תאריך לא ידוע'
 ---
 # 🖋️ שירים ויצירות
 
