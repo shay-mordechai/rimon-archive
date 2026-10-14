@@ -1,8 +1,6 @@
 ---
 title: 'NEWS AND VIEWS'
 type: 'letter'
-hebrew_year: 'תאריך לא ידוע'
-gregorian_year: '1909'
 ---
 
 # NEWS AND VIEWS
