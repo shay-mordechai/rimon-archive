@@ -1,6 +1,8 @@
 ---
 title: 'NEWS AND VIEWS'
 type: 'letter'
+sender: 'י.צ. רימון'
+recipient: '-'
 ---
 
 # NEWS AND VIEWS
